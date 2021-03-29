@@ -218,7 +218,7 @@ def resize_im(img, output_shape = [480, 640]):
     img = img.resize((h_resize, w_resize),Image.ANTIALIAS)
     return img
 
-#filename = "D:\Programs\work_dir\\000000046252.jpg" #demo.jpg"
+#filename = "D:\Programs\work_dir\\0000000397133.jpg" #demo.jpg"
 filename = "D:\Programs\work_dir\\val2017\\000000135604.jpg" 
 model_dir = 'D:\Programs\work_dir\\test_retinanet_resnet101\\retinanet-9.onnx'
 json_path = "D:\Programs\work_dir\\instances_val2017.json"
